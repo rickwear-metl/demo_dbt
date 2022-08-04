@@ -7,5 +7,5 @@ sources:
     database: snowflake_sample_data
     schema: TPCDS_SF10TCL
     tables:
-      - name: STORE_SALES
+      - name: store_sales
         description: "Details about sales in the store"
