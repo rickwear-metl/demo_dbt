@@ -9,8 +9,13 @@ sources:
     tables:
       - name: store_sales
         description: "Details about sales in the store"
-        columns:
-          - name: id
-            tests:
-               - unique
-               - not_null
+
+models:
+  - name: my_first_model
+    description: "Starter"
+    columns:
+        - name: id
+          tests:
+            - unique
+            - not_null
+
