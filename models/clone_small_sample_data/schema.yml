@@ -11,4 +11,4 @@ sources:
         description: "Details about sales in the store"
         tests:
           - unique
-          - not null
+          - not_null
