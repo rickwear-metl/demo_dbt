@@ -9,3 +9,6 @@ sources:
     tables:
       - name: store_sales
         description: "Details about sales in the store"
+        tests:
+          - unique
+          - not null
