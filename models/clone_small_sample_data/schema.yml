@@ -11,11 +11,10 @@ sources:
         description: "Details about sales in the store"
 
 models:
-  - name: my_first_model
+  - name: clone_small_sample_data__store_sales
     description: "Starter"
     columns:
-        - name: id
+        - name: SS_ITEM_SK
           tests:
-            - unique
             - not_null
 
